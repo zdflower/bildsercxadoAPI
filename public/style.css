@@ -3,10 +3,10 @@
 }
 
 html {
-    background-image: url('./imgs/notebook-2984108_960_720.jpg');
+    background-image: url(https://github.com/zdflower/bildsercxadoAPI/raw/master/public/notebook-2984108_960_720.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    min-height: 100%;    
 }
 
 body {
@@ -16,11 +16,17 @@ body {
 
 h1 {
   font-weight: bold;
+}
+
+h1, h3, h4 {
   color: pink;
 }
 
+main {
+  height: 300px;
+}
+
 p {
-  max-width: 600px;
   color: antiquewhite;
 }
 
@@ -30,14 +36,25 @@ li {
 
 footer {
   margin-top: 50px;
-  padding-top: 25px;
-  //border-top: 1px solid lightgrey;
+  padding: 10px;
+  width: 100%;
+  background-color: gray;
 }
 
 footer > a {
   color: #BBBBBB;
 }
 
-.blackBg {
-  background-color: black;
+main {
+  padding: 10px;
+}
+
+.txtc {
+  text-align: center;
+}
+
+.box {
+  max-width: 600px;
+  padding: 10px;
+  background-color: gray;
 }
